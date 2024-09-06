@@ -1,0 +1,130 @@
+section#uninews{
+  font-family: 'OpenSans';
+  padding-top: 28px;
+}
+section#uninews h2{
+  color: #009051;
+  font-size: 55px;
+  text-align: center;
+}
+section#uninews h3{
+  font-family: 'OpenSans';
+  color: #009051;
+  padding: 10px;
+  height: 100px;
+}
+section#uninews h2 span{
+  background-color: #009051;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+section#uninews small.subtitulo{
+  display:block;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 45px;
+}
+section#uninews p{
+  font-weight: 400;
+  font-size: 13px;
+  padding: 12px;
+  height: 95px;
+}
+section#uninews .card{
+  border: 1px solid rgb(221,227,236,0.6);
+  border-radius: 3%;
+  height: 412px;
+  transition: all .2s ease;
+}
+.card:hover{
+  box-shadow:0 0 15px rgba(0,0,0,0.2);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+section#uninews .info-date{
+  color: #009051;
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-top-color: rgb(221,227,236, 0.4);
+}
+section#uninews .info-date img{
+  margin-bottom: -5px;
+}
+section#uninews img.uninewsimg{
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 160px;
+  width: 100%;
+  border-radius: 4% 4% 0 0;
+  background-color: #ebebeb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section#uninews .center{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+section#uninews a.vejamais{
+  text-decoration:none;
+  background-color: #009051;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+}
+section#uninews a.desabilitado{
+  background-color: #aeafae;
+}
+section#uninews .info-date .continue{
+  float: right;
+  text-decoration: none;
+  color: #009051;
+}
+.col-sm-6.col-md-4.teste {
+    padding-bottom: 22px;
+}
+@media (min-width: 576px) {
+  section#uninews .card{
+    height: 460px;
+  }
+  section#uninews p{
+    height: 110px;
+  }
+  section#uninews h3{
+    height: 140px;
+  }
+}
+@media (min-width: 768px) {
+  section#uninews .card{
+    height: 480px;
+  }
+  section#uninews p{
+    height: 146px;
+  }
+  section#uninews h3{
+    height: 120px;
+  }
+}
+@media (min-width: 992px) {
+  section#uninews .card{
+    height: 415px;
+  }
+  section#uninews .info-date{
+    padding: 10px 12px;
+  }
+  section#uninews p{
+    height: 100px;
+  }
+  section#uninews h3{
+    height: 100px;
+  }
+}

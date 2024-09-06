@@ -1,0 +1,287 @@
+/* Seção de Tradição */
+section#tradicao {
+  margin-top: -15px;
+}
+section#tradicao p{
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+section#tradicao .mvv{
+  display: none;
+}
+section#tradicao .mvv .box{
+  color: #009051;
+  background-color: #009051;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px 0 20px 0;
+  transition: all .2s ease;
+  position: relative;
+  height: 140px;
+}
+section#tradicao .mvv .box *{
+    transition: all .2s ease;
+}
+section#tradicao .mvv .box:hover{
+  background-color: #fff;
+  border-color: rgba(0, 144, 81, 0.5);
+  box-shadow: 0 0 15px rgba(0, 144, 81, 0.5);
+}
+section#tradicao .mvv h3.bg{
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #009051;
+  font-size: 80px;
+  text-shadow: 1px 0px 0px rgba(226,226,226,.5),
+               0px 1px 0px rgba(226,226,226,.5),
+              -1px 0px 0px rgba(226,226,226,.5),
+              0px -1px 0px rgba(226,226,226,.5);
+}
+section#tradicao .mvv h3.up{
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 55px;
+}
+section#tradicao .mvv p{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
+  transform: translateY(-50%);
+}
+section#tradicao .mvv .box:hover h3.up{
+  opacity: 0;
+}
+section#tradicao .mvv .box:hover h3.bg{
+  color: #fff;
+}
+section#tradicao .mvv .box:hover p{
+  opacity: 1;
+}
+section#tradicao article{
+  margin-top: 50px;
+}
+section#tradicao article h2{
+  color: #009051;
+  font-size: 68px;
+}
+section#tradicao article .change-photo{
+  width: 100%;
+  background-color: #adf;
+  -webkit-box-shadow: 3px 4px 18px 3px rgba(0,144,81.4);
+  box-shadow: 3px 4px 18px 3px rgba(0,144,81.4);
+
+  webkit-box-shadow: -1px 5px 15px -3px rgb(0,144,81,0.6);
+  box-shadow: -1px 5px 15px -3px rgb(0,144,81,0.6);
+}
+section#tradicao article .change-photo input{
+    display: none;
+}
+section#tradicao article .change-photo .photo{
+  height: 80px;
+  position: relative;
+  background-size: cover;
+  background-color: #eee;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all .4s ease-out;
+}
+section#tradicao article .change-photo input:checked + .photo{
+  height: 300px;
+}
+section#tradicao article .change-photo input:checked + .photo label{
+  color: #009051;
+  background-color: transparent;
+  text-shadow: 2px 0px 0px rgba(226,226,226,.9),
+               0px 2px 0px rgba(226,226,226,.9),
+               -2px 0px 0px rgba(226,226,226,.9),
+               0px -2px 0px rgba(226,226,226,.9);
+}
+section#tradicao article .change-photo .photo label{
+  color: #fff;
+  display: block;
+  cursor: pointer;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all .4s ease-out;
+  background-color: rgba(0, 144, 81, 0.8);
+  text-shadow: 1px 0px 0px #fff,
+               0px 1px 0px #fff,
+               -1px 0px 0px #fff,
+               0px -1px 0px #fff;
+}
+section#tradicao .setores{
+  margin: 32px 0;
+}
+section#tradicao .setores img{
+  width: 100%;
+  border: 2px solid #009051;
+}
+section#tradicao .setores h3{
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+section#tradicao .video{
+  background-color: #464646;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: 15px;
+}
+iframe {
+  height: 418px;
+}
+
+/* Seção de Parceiros */
+section.parceiros {
+  padding: 80px 0;
+  text-align: center;
+  background-image:url('../images/background-parceiros.jpg');
+}
+section.parceiros .container.teste {
+  padding-left: 43px;
+  padding-right: 44px;
+}
+section.parceiros .item{
+  padding-right: 10px;
+}
+section.parceiros h2{
+  color: #fff;
+  font-size: 50px;
+}
+section.parceiros .carousel-produtos{
+  background-color: #fff;
+}
+section.parceiros div.carousel-parceiros .item{
+  height: 150px;
+}
+section.parceiros div.carousel-produtos .descricao1,
+section.parceiros div.carousel-produtos .descricao2{
+  height: 142px;
+  text-align: left;
+  background-size: contain;
+  padding-top: 20px;
+  padding-left: 26px;
+}
+section.parceiros div.carousel-produtos .produto1,
+section.parceiros div.carousel-produtos .produto2{
+  height: 200px;
+  width: 100%;
+  background:no-repeat center center;
+}
+section.parceiros .background{
+  background-color: rgb(0,117,78,0.7);
+}
+section.parceiros .carousel-parceiros .item{
+  background: no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+  background-position: center;
+  filter: brightness(0) invert(1);
+  padding: 20px;
+}
+section.parceiros .item.slick-slide.slick-current.slick-active.slick-center{
+  background-color: #fff !important;
+  filter: grayscale(0);
+  -webkit-box-shadow: 3px 4px 18px 3px rgba(0,0,0,0.4);
+  box-shadow: 3px 4px 18px 3px rgba(0,0,0,0.5);
+}
+.slick-prev:before {
+  content: url('../images/left.png') !important;
+  margin-left: -20px;
+}
+.slick-next:before {
+  content: url('../images/right.png') !important;
+}
+.slick-prev, .slick-next {
+  top: 93% !important;
+}
+/* Video */
+.video iframe{
+  width: 100%;
+}
+.container-video{
+  width: 100%;
+}
+
+/* Seção Mapa */
+section#localizacao {
+  margin-bottom: -5px;
+}
+
+/* Modal */
+.modal h1{
+  color: #009051;
+  text-align: center;
+}
+.modal input[type="text"] {
+  height: 30px;
+  padding-bottom: 3px;
+  width: 100%;
+  outline: none;
+  padding-left: 10px;
+}
+.form-group.col-12.botao {
+  text-align: center;
+}
+.form-control{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.campos {
+  padding-top: 10px;
+}
+
+button.formbutton {
+  outline: none;
+  border: none;
+  background-color: #009051;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+
+@media (min-width:576px) {
+  section#tradicao article h2{
+    color: #009051;
+    font-size: 80px;
+  }
+  section.parceiros .container.teste {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section.parceiros h2{
+    font-size: 62px;
+  }
+}
+@media (min-width: 991px){
+  section#tradicao .mvv{
+    display: -webkit-box;
+    padding-bottom: 30px;
+  }
+  .video iframe{
+    width: 70%;
+    height: 480px;
+  }
+  section#tradicao {
+    margin-top: 50px;
+  }
+}

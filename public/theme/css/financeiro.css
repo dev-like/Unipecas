@@ -1,0 +1,24 @@
+section.financeiro {
+  background-image: url('../images/pendencias.png');
+  background-repeat: no-repeat;
+  height: 620px;
+  margin-top: -5px;
+}
+section.financeiro h1 {
+  font-family: 'Oswald';
+  padding-top: 125px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 800;
+  color: #009051;
+}
+.table-responsive {
+  max-height: 268px;
+}
+.btn-success {
+  background-color: #00673a !important;
+  border-color: #00673a !important;
+}
+.btn-success:hover{
+  background-color: #4cae4c !important;
+}

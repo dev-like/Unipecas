@@ -1,0 +1,101 @@
+footer{
+  background-image: url(../images/logo_footer.png);
+  font-family: 'OpenSans';
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: bottom -178px right 20px;
+  height: auto;
+  background-color: #00673A;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 200;
+}
+footer h5{
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+footer .logo img{
+  padding-top: 0px;
+  width: 226px;
+  margin-left: 0;
+}
+footer .redessociais img{
+  padding-top: 10px;
+  width: 20px;
+}
+footer .redessociais a.redessociais{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+footer .row.colunas {
+  padding-top: 30px;
+  text-align: center;
+}
+footer .fake1{
+  display: none;
+}
+footer .fake2{
+  display: none;
+}
+footer .coluna2{
+  padding-top: 30px
+}
+footer .coluna3{
+  padding-top: 30px
+}
+footer .coluna4{
+  padding-top: 30px;
+}
+
+@media (min-width: 576px) {
+  footer .fake1{
+    display: block;
+  }
+  footer .fake2{
+    display: block;
+    padding-bottom: 10px;
+  }
+  footer .coluna2{
+    display: none;
+    padding-top: 0;
+  }
+  footer .coluna3{
+    display: none;
+    padding-top: 0;
+  }
+  footer .coluna4{
+    padding-top: 16px;
+  }
+  footer .row.colunas {
+    text-align: left;
+  }
+  footer .logo img{
+    margin-left: -70px;
+  }
+}
+@media (min-width: 768px) {
+  footer{
+    height: 160px;
+  }
+  footer .fake1{
+    display: none;
+  }
+  footer .fake2{
+    display: none;
+  }
+  footer .coluna2{
+    display: block;
+  }
+  footer .coluna3{
+    display: block;
+  }
+  footer .coluna4{
+    padding-top: 0;
+  }
+}
+@media (min-width: 991px) {
+  footer .logo img{
+    margin-left: 0;
+  }
+}

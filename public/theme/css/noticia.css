@@ -1,0 +1,30 @@
+section.noticia{
+  margin-top: 120px;
+  text-align: center;
+  font-family: 'OpenSans';
+}
+section.noticia img{
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.noticia .mc-column.content-text.active-extra-styles{
+  text-align: justify !important;
+}
+section.noticia .conteudo{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+}
+section.noticia p.descricao{
+  padding-bottom: 30px;
+}
+@media (min-width: 485px) {
+  section.noticia img{
+    width: 450px;
+  }
+  section.noticia .conteudo{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
